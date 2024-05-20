@@ -1,0 +1,83 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
+    background-position: cover;
+}
+.view-user-container {
+    margin: 20px;
+}
+.view-user-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.submit-button{
+    background-color: #000; 
+    color: 000;
+    padding: 5px 10px;
+
+}
+.user-table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.delete-button,
+.edit-button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #000;
+    color: #000;
+    border: none;
+}
+
+.edit-button {
+    background-color: #dc1414;
+    color: #000;
+    border: none;
+}
+
+.add-user-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-user-form {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.add-user-form input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-user-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-user-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
